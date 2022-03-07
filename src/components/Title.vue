@@ -5,8 +5,8 @@
 </template>
 
 <script>
-export default {
-  name: 'Title',
+export default { // eslint-disable-next-line
+  name: 'Title', 
   props: {
     msg: String
   }
